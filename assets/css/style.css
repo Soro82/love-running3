@@ -343,6 +343,19 @@ main {
     #photos {
         column-count: 3;            
     }
+
+    /* Signup Page*/
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
 }
 
 @media screen and (min-width: 992px) {
