@@ -94,6 +94,8 @@ main {
     /*Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero Section */
@@ -203,6 +205,14 @@ main {
 #photos {
     line-height: 0;
 
+}
+
+/* Signup Section*/
+#signup {
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    
 }
 
 /* Footer */
